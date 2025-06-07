@@ -12,10 +12,10 @@ const GridImages = () => {
             Top Destinos
           </div>
           <div className="mt-8 h-[73px] w-[880px]">
-            <h2 className="text-center align-top text-[56px] font-medium leading-[1.308rem] tracking-tighter text-neutral-800">
+            <h2 className="text-center align-top text-[56px] font-medium leading-5 tracking-tighter text-neutral-800">
               Destinos mais procurados
             </h2>
-            <p className="mx-auto mb-10 mt-8 h-[42px] w-[584px] text-center align-top text-base leading-[1.308rem] tracking-tight text-neutral-400">
+            <p className="leading-5tracking-tight mx-auto mb-10 mt-8 h-[42px] w-[584px] text-center align-top text-base text-neutral-400">
               Confira os destinos mais procurados por nossos clientes nos
               últimos meses, qual seria o seu novo destino?
             </p>

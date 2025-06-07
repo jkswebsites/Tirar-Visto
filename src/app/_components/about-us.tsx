@@ -3,17 +3,13 @@ import imgTourist from '@/assets/images/happy-tourist.png';
 import Image from 'next/image';
 import { FaPlus } from 'react-icons/fa6';
 import Link from 'next/link';
+import TitleRadius from './title-radius';
 
 const AboutUs = () => {
   return (
     <section className="h-[893px] w-[1440px] bg-white px-[60px] py-[95px]">
       <div className="h-[199px] w-[1320px]">
-        <div className="flex h-[41px] w-[169px] items-center justify-center rounded-[20px] bg-amber-400 drop-shadow-md">
-          <p className="text-base font-medium tracking-tighter text-neutral-800">
-            Veja como funciona
-          </p>
-        </div>
-
+        <TitleRadius title="Veja como funciona" />
         <div className="mt-2 flex h-[146px] w-[1320px]">
           <div>
             <h3 className="h-[146px] w-[420px] text-left align-top text-[56px] font-medium tracking-tighter text-neutral-800">
@@ -21,8 +17,8 @@ const AboutUs = () => {
             </h3>
           </div>
           <div>
-            <p className="ml-[74px] mt-[38px] h-[84px] w-[826px] text-left align-top text-base leading-[1.308rem] tracking-[-0.02rem] text-neutral-400">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
+            <p className="ml-[74px] mt-[38px] h-[84px] w-[826px] text-left align-top text-base leading-5 tracking-[-0.02rem] text-neutral-400">
+              dLorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry s standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
@@ -47,7 +43,7 @@ const AboutUs = () => {
               Etapa Inicial
             </h3>
 
-            <p className="h-[42px] w-[504px] text-left align-top text-base font-bold leading-[1.308rem] tracking-tighter text-neutral-400">
+            <p className="h-[42px] w-[504px] text-left align-top text-base font-bold leading-5 tracking-tighter text-neutral-400">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
@@ -60,7 +56,7 @@ const AboutUs = () => {
 
             <Link
               href={'/'}
-              className="flex h-[24px] w-[102px] items-center gap-[8px] text-left align-top text-base font-bold leading-[1.308rem] tracking-tighter text-neutral-800"
+              className="flex h-[24px] w-[102px] items-center gap-[8px] text-left align-top text-base font-bold leading-5 tracking-tighter text-neutral-800"
             >
               <FaPlus />
               <span>Leia Mais</span>
@@ -74,7 +70,7 @@ const AboutUs = () => {
 
             <Link
               href={'/'}
-              className="flex h-[24px] w-[102px] items-center gap-[8px] text-left align-top text-base font-bold leading-[1.308rem] tracking-tighter text-neutral-800"
+              className="flex h-[24px] w-[102px] items-center gap-[8px] text-left align-top text-base font-bold leading-5 tracking-tighter text-neutral-800"
             >
               <FaPlus />
               <span>Leia Mais</span>
