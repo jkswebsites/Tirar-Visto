@@ -19,7 +19,24 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.card-vector {
+  background-image: url('../assets/images/vectors.png');
+}
+.button-size {
+  @apply h-[54px] w-[54px] rounded-[40px] border-[1.5px];
+}
+.link-media-social a {
+  @apply flex items-center rounded-[40px] border border-neutral-800 px-5 text-neutral-800;
+}
+.cart-contact-links {
+  @apply w-[120px];
+}
+.cart-contact-links h4 {
+  @apply h-[21px] w-[120px] text-base font-medium tracking-tighter text-neutral-800;
+}
+.cart-contact-links div {
+  @apply mt-5 flex flex-col gap-y-5 text-neutral-400;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
