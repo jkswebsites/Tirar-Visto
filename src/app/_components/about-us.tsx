@@ -23,7 +23,7 @@ const AboutUs = () => {
           <div>
             <p className="ml-[74px] mt-[38px] h-[84px] w-[826px] text-left align-top text-base leading-[1.308rem] tracking-[-0.02rem] text-neutral-400">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industry s standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
               survived not only five centuries, but also the leap into
