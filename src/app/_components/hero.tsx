@@ -14,15 +14,16 @@ const Hero = () => {
       <div>
         <Header />
         <article className="mb-[115px] ml-[60px] mt-10 h-[525px] w-[598px]">
-          <div className="h-[245px] border-b-[1.5px] border-neutral-200">
+          <div className="h-[245px]">
             <h2 className="h-[213px] text-[54px] font-medium leading-tight tracking-tighter text-neutral-800">
               Tire seu Visto conosco e não tenha nenhuma surpresa negativa!
             </h2>
+            <div className="mt-8 h-[1px] w-[538px] border-b-[1.5px] border-neutral-200"></div>
           </div>
 
           <div className="mt-[60px] flex">
             <div className="h-[220px] w-[327px]">
-              <p className="leading-[1.31rem]tracking-tight text-left align-top text-base text-neutral-400">
+              <p className="leading-[130.8%]tracking-tight text-left align-top text-base text-neutral-400">
                 Com uma equipe altamente treinada, nós temos todos os
                 procedimentos para que seu processo seja o mais tranquilo e
                 rápido. Uma consultoria completa para você e sua família não ter
@@ -52,10 +53,10 @@ const Hero = () => {
               />
               <div className="flex h-[41px] w-[191px] justify-between text-left align-top">
                 <div>
-                  <h2 className="leading-[1.31rem]text-neutral-800 mb-[4px] text-base font-semibold">
+                  <h2 className="leading-[130.8%]text-neutral-800 mb-[4px] text-base font-semibold">
                     Conheça a Bruna
                   </h2>
-                  <span className="leading-[1.31rem]text-neutral-400 text-xs">
+                  <span className="leading-[130.8%]text-neutral-400 text-xs">
                     Ver Vídeo
                   </span>
                 </div>
