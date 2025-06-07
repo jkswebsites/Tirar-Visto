@@ -17,8 +17,8 @@ const AboutUs = () => {
             </h3>
           </div>
           <div>
-            <p className="ml-[74px] mt-[38px] h-[84px] w-[826px] text-left align-top text-base leading-5 tracking-[-0.02rem] text-neutral-400">
-              dLorem Ipsum is simply dummy text of the printing and typesetting
+            <p className="leading-[1.31rem ml-[74px] mt-[38px] h-[84px] w-[826px] text-left align-top text-base tracking-[-0.02rem] text-neutral-400">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry s standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has
@@ -43,7 +43,7 @@ const AboutUs = () => {
               Etapa Inicial
             </h3>
 
-            <p className="h-[42px] w-[504px] text-left align-top text-base font-bold leading-5 tracking-tighter text-neutral-400">
+            <p className="h-[42px] w-[504px] text-left align-top text-base font-bold leading-[1.31rem] tracking-tighter text-neutral-400">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
@@ -56,7 +56,7 @@ const AboutUs = () => {
 
             <Link
               href={'/'}
-              className="flex h-[24px] w-[102px] items-center gap-[8px] text-left align-top text-base font-bold leading-5 tracking-tighter text-neutral-800"
+              className="flex h-[24px] w-[102px] items-center gap-[8px] text-left align-top text-base font-bold leading-[1.31rem] tracking-tighter text-neutral-800"
             >
               <FaPlus />
               <span>Leia Mais</span>
@@ -70,7 +70,7 @@ const AboutUs = () => {
 
             <Link
               href={'/'}
-              className="flex h-[24px] w-[102px] items-center gap-[8px] text-left align-top text-base font-bold leading-5 tracking-tighter text-neutral-800"
+              className="leading-[1.31rem]tracking-tighter flex h-[24px] w-[102px] items-center gap-[8px] text-left align-top text-base font-bold text-neutral-800"
             >
               <FaPlus />
               <span>Leia Mais</span>

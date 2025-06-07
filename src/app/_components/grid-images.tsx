@@ -12,7 +12,7 @@ const GridImages = () => {
             Top Destinos
           </div>
           <div className="mt-8 h-[73px] w-[880px]">
-            <h2 className="text-center align-top text-[56px] font-medium leading-5 tracking-tighter text-neutral-800">
+            <h2 className="leading-[1.31rem]tracking-tighter text-center align-top text-[56px] font-medium text-neutral-800">
               Destinos mais procurados
             </h2>
             <p className="leading-5tracking-tight mx-auto mb-10 mt-8 h-[42px] w-[584px] text-center align-top text-base text-neutral-400">

@@ -22,7 +22,7 @@ const Hero = () => {
 
           <div className="mt-[60px] flex">
             <div className="h-[220px] w-[327px]">
-              <p className="text-left align-top text-base leading-5 tracking-tight text-neutral-400">
+              <p className="leading-[1.31rem]tracking-tight text-left align-top text-base text-neutral-400">
                 Com uma equipe altamente treinada, nós temos todos os
                 procedimentos para que seu processo seja o mais tranquilo e
                 rápido. Uma consultoria completa para você e sua família não ter
@@ -52,10 +52,10 @@ const Hero = () => {
               />
               <div className="flex h-[41px] w-[191px] justify-between text-left align-top">
                 <div>
-                  <h2 className="mb-[4px] text-base font-semibold leading-5 text-neutral-800">
+                  <h2 className="leading-[1.31rem]text-neutral-800 mb-[4px] text-base font-semibold">
                     Conheça a Bruna
                   </h2>
-                  <span className="text-xs leading-5 text-neutral-400">
+                  <span className="leading-[1.31rem]text-neutral-400 text-xs">
                     Ver Vídeo
                   </span>
                 </div>
