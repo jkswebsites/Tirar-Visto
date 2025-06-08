@@ -9,7 +9,7 @@ const Services = () => {
       <div className="h-[122px] w-[1320px]">
         <TitleRadius title="Pacotes" />
         <div className="mt-2 flex h-[73px] justify-between">
-          <h2 className="w-[1132px] text-[56px] font-medium leading-[2.018rem] tracking-tight">
+          <h2 className="w-[1132px] text-[56px] font-medium leading-[130.8%] tracking-tight">
             Confira nossos pacotes
           </h2>
 

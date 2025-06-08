@@ -12,10 +12,10 @@ const GridImages = () => {
             Top Destinos
           </div>
           <div className="mt-8 h-[73px] w-[880px]">
-            <h2 className="leading-[130.8%]tracking-tighter text-center align-top text-[56px] font-medium text-neutral-800">
+            <h2 className="text-center align-top text-[56px] font-medium leading-[130.8%] tracking-tighter text-neutral-800">
               Destinos mais procurados
             </h2>
-            <p className="leading-5tracking-tight mx-auto mb-10 mt-8 h-[42px] w-[584px] text-center align-top text-base text-neutral-400">
+            <p className="mx-auto mb-10 mt-8 h-[42px] w-[584px] text-center align-top text-base leading-[130.8%] tracking-tight text-neutral-400">
               Confira os destinos mais procurados por nossos clientes nos
               últimos meses, qual seria o seu novo destino?
             </p>
@@ -28,37 +28,16 @@ const GridImages = () => {
           </div>
         </div>
       </div>
+
       <div className="mx-auto grid h-[580px] w-[880px] grid-cols-3 items-center justify-items-center gap-5">
-        <Image
-          src={imagesGrid[0].src}
-          alt={imagesGrid[0].name}
-          className="self-end"
-        />
-        <Image
-          src={imagesGrid[1].src}
-          alt={imagesGrid[1].name}
-          className="self-start"
-        />
-        <Image
-          src={imagesGrid[2].src}
-          alt={imagesGrid[2].name}
-          className="self-end"
-        />
-        <Image
-          src={imagesGrid[3].src}
-          alt={imagesGrid[3].name}
-          className="self-start"
-        />
-        <Image
-          src={imagesGrid[4].src}
-          alt={imagesGrid[4].name}
-          className="self-end"
-        />
-        <Image
-          src={imagesGrid[5].src}
-          alt={imagesGrid[5].name}
-          className="self-start"
-        />
+        {imagesGrid.map((image) => (
+          <Image
+            key={image.name}
+            src={image.src}
+            alt={image.name}
+            className={`${image.align}`}
+          />
+        ))}
       </div>
     </section>
   );
