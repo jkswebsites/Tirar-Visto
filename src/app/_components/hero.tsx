@@ -10,20 +10,20 @@ import ScreenMetrics from './screen-metrics';
 
 const Hero = () => {
   return (
-    <main className="flex h-[940px] w-[1440px]">
+    <main className="flex h-[58.75rem] w-[90rem]">
       <div>
         <Header />
-        <article className="mb-[115px] ml-[60px] mt-10 h-[525px] w-[598px]">
-          <div className="h-[245px]">
-            <h2 className="h-[213px] text-[54px] font-medium leading-tight tracking-tighter text-neutral-800">
+        <article className="mb-[7.188rem] ml-[3.75rem] mt-10 h-[32.813rem] w-[37.375rem]">
+          <div className="h-[15.313rem]">
+            <h2 className="h-[13.313rem] text-[3.375rem] font-medium leading-tight tracking-tighter text-neutral-800">
               Tire seu Visto conosco e não tenha nenhuma surpresa negativa!
             </h2>
-            <div className="mt-8 h-[1px] w-[538px] border-b-[1.5px] border-neutral-200"></div>
+            <div className="mt-8 h-[0.063rem] w-[33.625rem] border-b-[0.094rem] border-neutral-200"></div>
           </div>
 
-          <div className="mt-[60px] flex">
-            <div className="h-[220px] w-[327px]">
-              <p className="leading-[130.8%]tracking-tight text-left align-top text-base text-neutral-400">
+          <div className="mt-[3.75rem] flex">
+            <div className="h-[13.75rem] w-[20.438rem]">
+              <p className="text-left align-top text-base leading-[130.8%] tracking-tight text-neutral-400">
                 Com uma equipe altamente treinada, nós temos todos os
                 procedimentos para que seu processo seja o mais tranquilo e
                 rápido. Uma consultoria completa para você e sua família não ter
@@ -32,7 +32,7 @@ const Hero = () => {
 
               <Link
                 href={'/'}
-                className="mt-10 flex h-[54px] w-[160px] items-center gap-3 rounded-[40px] bg-blue-950 px-[10px] py-5 text-white"
+                className="mt-10 flex h-[3.375rem] w-[10rem] items-center gap-3 rounded-[2.5rem] bg-blue-950 px-[0.625rem] py-5 text-white"
               >
                 <span className="ml-5 inline-block">Saiba mais</span>
                 <Image
@@ -44,19 +44,19 @@ const Hero = () => {
               </Link>
             </div>
 
-            <div className="ml-5 h-[167px] w-[191px] space-y-[16px] self-end bg-white">
+            <div className="ml-5 h-[10.438rem] w-[11.938rem] space-y-[1rem] self-end bg-white">
               <Image
                 src={imgAboutUs}
                 alt="vídeo sobre tirar visto"
                 width={191}
                 height={110}
               />
-              <div className="flex h-[41px] w-[191px] justify-between text-left align-top">
+              <div className="flex h-[2.563rem] w-[11.938rem] justify-between text-left align-top">
                 <div>
-                  <h2 className="leading-[130.8%]text-neutral-800 mb-[4px] text-base font-semibold">
+                  <h2 className="mb-[0.25rem] text-base font-semibold leading-[130.8%] text-neutral-800">
                     Conheça a Bruna
                   </h2>
-                  <span className="leading-[130.8%]text-neutral-400 text-xs">
+                  <span className="text-xs leading-[130.8%] text-neutral-400">
                     Ver Vídeo
                   </span>
                 </div>

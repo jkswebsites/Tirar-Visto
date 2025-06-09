@@ -5,7 +5,7 @@ import Navbar from './navbar';
 
 const Header = () => {
   return (
-    <header className="flex h-[100px] w-[658px] items-center bg-white px-[60px]">
+    <header className="flex h-[6.25rem] w-[41.125rem] items-center px-[3.75rem]">
       <Image src={imgLogo} alt="logo tirar visto" width={152} height={42} />
       <Navbar />
     </header>

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Banner = () => {
   return (
-    <aside className="my-5 mr-5 h-[900px] w-[762px]">
+    <aside className="my-5 mr-5 h-[56.25rem] w-[47.625rem]">
       <Image
         src={banner}
         width={762}

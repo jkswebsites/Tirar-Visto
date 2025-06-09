@@ -4,10 +4,10 @@ import { TfiArrowTopRight } from 'react-icons/tfi';
 
 const Contact = () => {
   return (
-    <div className="h-[675px] w-[1440px] px-[60px] py-[70px]">
-      <div className="flex h-[334px] w-[1320px] items-center justify-between">
-        <div className="h-[294px] w-[456px]">
-          <h3 className="h-[146px] text-[56px] font-medium tracking-tighter">
+    <div className="h-[42.188rem] w-[90rem] px-[3.75rem] py-[4.375rem]">
+      <div className="flex h-[20.875rem] w-[82.5rem] items-center justify-between">
+        <div className="h-[18.375rem] w-[28.5rem]">
+          <h3 className="h-[9.125rem] text-[3.5rem] font-medium tracking-tighter">
             Está com alguma dúvida?
           </h3>
           <p className="mt-3 align-text-top text-base tracking-tight text-neutral-400">
@@ -22,17 +22,17 @@ const Contact = () => {
             Central de Atendimento
           </Link>
         </div>
-        <div className="flex h-[68.57px] w-[500px] items-start justify-between border-b border-neutral-800">
-          <h6 className="align-top text-[40px] tracking-tighter">
+        <div className="flex h-[4.286rem] w-[31.25rem] items-start justify-between border-b border-neutral-800">
+          <h6 className="align-top text-[2.5rem] tracking-tighter">
             Receba novidades
           </h6>
           <TfiArrowTopRight className="text-[40px] text-neutral-800" />
         </div>
       </div>
 
-      <div className="mt-[40px] flex h-[161px] w-[1320px] items-end justify-between">
-        <div className="h-[81px] w-[451px] space-y-5">
-          <p className="h-[21px] text-base font-semibold tracking-tight text-neutral-800">
+      <div className="mt-[2.5rem] flex h-[10.063rem] w-[82.5rem] items-end justify-between">
+        <div className="h-[5.063rem] w-[28.188rem] space-y-5">
+          <p className="h-[1.313rem] text-base font-semibold tracking-tight text-neutral-800">
             Siga em nossas redes:
           </p>
 
@@ -44,7 +44,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="flex h-[161px] w-[612px] justify-between">
+        <div className="flex h-[10.063rem] w-[38.25rem] justify-between">
           <div className="cart-contact-links">
             <h4>Empresa</h4>
 

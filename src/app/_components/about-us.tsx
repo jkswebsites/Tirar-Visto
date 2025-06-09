@@ -7,17 +7,17 @@ import TitleRadius from './title-radius';
 
 const AboutUs = () => {
   return (
-    <section className="h-[893px] w-[1440px] bg-white px-[60px] py-[95px]">
-      <div className="h-[199px] w-[1320px]">
+    <section className="h-[55.813rem] w-[90rem] bg-white px-[3.75rem] py-[5.938rem]">
+      <div className="h-[12.438rem] w-[82.5rem]">
         <TitleRadius title="Veja como funciona" />
-        <div className="mt-2 flex h-[146px] w-[1320px]">
+        <div className="mt-2 flex h-[9.125rem] w-[82.5rem]">
           <div>
-            <h3 className="h-[146px] w-[420px] text-left align-top text-[56px] font-medium tracking-tighter text-neutral-800">
+            <h3 className="h-[9.125rem] w-[26.25rem] text-left align-top text-[3.5rem] font-medium tracking-tighter text-neutral-800">
               Sua tranquilidade não tem preço!
             </h3>
           </div>
           <div>
-            <p className="ml-[74px] mt-[38px] h-[84px] w-[826px] text-left align-top text-base leading-[130.8%] tracking-[-0.02rem] text-neutral-400">
+            <p className="ml-[4.625rem] mt-[2.375rem] h-[5.25rem] w-[51.625rem] text-left align-top text-base leading-[130.8%] tracking-tight text-neutral-400">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry s standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -29,7 +29,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      <div className="mt-[60px] flex h-[444px] w-[1320px]">
+      <div className="mt-[3.75rem] flex h-[27.75rem] w-[82.5rem]">
         <Image
           src={imgTourist}
           alt="3 tourist happy"
@@ -37,40 +37,40 @@ const AboutUs = () => {
           height={444}
         />
 
-        <div className="my-3 ml-9 h-[420px] w-[528px]">
-          <div className="h-[152px] w-full border-b border-neutral-200 px-[12px] py-5">
-            <h3 className="text-left align-top text-[44px] font-medium tracking-tight text-neutral-800">
+        <div className="my-3 ml-9 h-[26.25rem] w-[33rem]">
+          <div className="h-[9.5rem] w-full border-b border-neutral-200 px-3 py-5">
+            <h3 className="text-left align-top text-[2.75rem] font-medium tracking-tight text-neutral-800">
               Etapa Inicial
             </h3>
 
-            <p className="h-[42px] w-[504px] text-left align-top text-base font-bold leading-[130.8%] tracking-tighter text-neutral-400">
+            <p className="h-[2.625rem] w-[31.5rem] text-left align-top text-base font-bold leading-[130.8%] tracking-tighter text-neutral-400">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
           </div>
 
-          <div className="h-[152px] w-full border-b border-neutral-200 px-[12px] py-5">
-            <h3 className="text-left align-top text-[44px] font-medium tracking-tight text-neutral-800">
+          <div className="h-[9.5rem] w-full border-b border-neutral-200 px-3 py-5">
+            <h3 className="text-left align-top text-[2.75rem] font-medium tracking-tight text-neutral-800">
               Processos de Entrevista
             </h3>
 
             <Link
               href={'/'}
-              className="flex h-[24px] w-[102px] items-center gap-[8px] text-left align-top text-base font-bold leading-[130.8%] tracking-tighter text-neutral-800"
+              className="flex h-6 w-[6.375rem] items-center gap-2 text-left align-top text-base font-bold leading-[130.8%] tracking-tighter text-neutral-800"
             >
               <FaPlus />
               <span>Leia Mais</span>
             </Link>
           </div>
 
-          <div className="h-[152px] w-full border-b border-neutral-200 px-[12px] py-5">
-            <h3 className="text-left align-top text-[44px] font-medium tracking-tight text-neutral-800">
+          <div className="h-[9.5rem] w-full border-b border-neutral-200 px-3 py-5">
+            <h3 className="text-left align-top text-[2.75rem] font-medium tracking-tight text-neutral-800">
               Entrega de Documentos
             </h3>
 
             <Link
               href={'/'}
-              className="leading-[130.8%]tracking-tighter flex h-[24px] w-[102px] items-center gap-[8px] text-left align-top text-base font-bold text-neutral-800"
+              className="flex h-6 w-[6.375rem] items-center gap-2 text-left align-top text-base font-bold leading-[130.8%] tracking-tighter text-neutral-800"
             >
               <FaPlus />
               <span>Leia Mais</span>

@@ -5,28 +5,28 @@ import React from 'react';
 
 const ServicesItems = () => {
   return (
-    <div className="mt-[60px] flex h-[626px] w-[1320px] gap-6">
+    <div className="mt-[3.75rem] flex h-[39.125rem] w-[82.5rem] gap-6">
       {services.map((service) => (
         <div
-          className="h-[626px] w-[424px] rounded-3xl border border-neutral-200 bg-slate-50 p-4"
+          className="h-[39.125rem] w-[26.5rem] rounded-3xl border border-neutral-200 bg-slate-50 p-4"
           key={service.category}
         >
           <Image
             src={service.img}
             alt={service.category}
-            className="h-[300px] w-[392px] rounded-2xl"
+            className="h-[18.75rem] w-[24.5rem] rounded-2xl"
           />
-          <div className="mt-8 h-[262px] w-[392px]">
-            <div className="flex h-[32px] w-[207px] items-center justify-between text-base font-semibold">
-              <button className="h-[32px] w-[82px] rounded-[40px] border border-neutral-800 text-neutral-800">
+          <div className="mt-8 h-[16.375rem] w-[24.5rem]">
+            <div className="flex h-[2rem] w-[12.938rem] items-center justify-between text-base font-semibold">
+              <button className="h-[2rem] w-[5.125rem] rounded-[2.5rem] border border-neutral-800 text-neutral-800">
                 Basic
               </button>
-              <button className="h-[32px] w-[109px] rounded-[40px] border border-neutral-400 text-neutral-400">
+              <button className="h-[2rem] w-[6.813rem] rounded-[2.5rem] border border-neutral-400 text-neutral-400">
                 Premium
               </button>
             </div>
 
-            <div className="mt-5 h-[123px] w-[392px] border-b border-neutral-200">
+            <div className="mt-5 h-[7.688rem] w-[24.5rem] border-b border-neutral-200">
               <h2 className="h-8 align-top text-[28px] font-semibold">
                 {service.category}
               </h2>
@@ -52,18 +52,18 @@ const ServicesItems = () => {
               </div>
             </div>
 
-            <div className="mt-5 flex h-[67px] w-[392px] items-center justify-between">
+            <div className="mt-5 flex h-[4.188rem] w-[24.5rem] items-center justify-between">
               <div>
-                <h6 className="h-[21px] w-[102px] align-top text-base text-neutral-400">
+                <h6 className="h-[1.313rem] w-[6.375rem] align-top text-base text-neutral-400">
                   A partir de
                 </h6>
-                <p className="align-top text-[32px] font-semibold">
+                <p className="align-top text-[2rem] font-semibold">
                   {service.price}
                 </p>
               </div>
               <Link
                 href={'/'}
-                className="flex h-[54px] w-[115px] items-center justify-center rounded-[40px] bg-blue-950 text-white"
+                className="flex h-[3.375rem] w-[7.188rem] items-center justify-center rounded-[2.5rem] bg-blue-950 text-white"
               >
                 Contratar
               </Link>
