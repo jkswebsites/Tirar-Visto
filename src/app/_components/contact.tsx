@@ -1,3 +1,4 @@
+import { linksService } from '@/constants/links-service-data';
 import Link from 'next/link';
 import React from 'react';
 import { TfiArrowTopRight } from 'react-icons/tfi';
@@ -45,37 +46,19 @@ const Contact = () => {
         </div>
 
         <div className="flex h-[10.063rem] w-[38.25rem] justify-between">
-          <div className="cart-contact-links">
-            <h4>Empresa</h4>
+          {linksService.map((service, index) => (
+            <div className="cart-contact-links" key={index}>
+              <h4>{service.title}</h4>
 
-            <div>
-              <Link href={'/'}>Home</Link>
-              <Link href={'/'}>Quem somos</Link>
-              <Link href={'/'}>Serviços</Link>
-              <Link href={'/'}>Contato</Link>
+              <div>
+                {service.links.map((link, index) => (
+                  <Link key={index} href={link.link}>
+                    {link.role}
+                  </Link>
+                ))}
+              </div>
             </div>
-          </div>
-
-          <div className="cart-contact-links">
-            <h4>Novidades</h4>
-
-            <div>
-              <Link href={'/'}>Passaporte</Link>
-              <Link href={'/'}>Visto</Link>
-              <Link href={'/'}>Entrevista</Link>
-              <Link href={'/'}>Polícia Federal</Link>
-            </div>
-          </div>
-
-          <div className="cart-contact-links">
-            <h4>Suporte</h4>
-
-            <div>
-              <Link href={'/'}>FAQ</Link>
-              <Link href={'/'}>Contato</Link>
-              <Link href={'/'}>Dúvidas Frequentes</Link>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
